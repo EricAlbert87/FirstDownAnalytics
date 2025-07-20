@@ -87,12 +87,16 @@ function App() {
 
       {/* INTRO SECTION */}
       <section className="intro">
-        <h2>Welcome to the 2025 FirstDown Analytics Dashboard</h2>
-        <p>
-          This dashboard shows <strong>2025 NFL team standings</strong> (synthetic live updates every minute)
-          and score evolution per team. Use the filters and dropdowns below to interact with the data.
-        </p>
+        <h2>{t('introTitle')}</h2>
+        <p>{t('introDescription')}</p>
       </section>
+
+      <div className="filters">
+        <button onClick={() => handleFilter("ALL")}>{t('filterAll')}</button>
+        <button onClick={() => handleFilter("AFC")}>{t('filterAFC')}</button>
+        <button onClick={() => handleFilter("NFC")}>{t('filterNFC')}</button>
+      </div>
+
 
       {/* FILTERS */}
       <div className="filters">
