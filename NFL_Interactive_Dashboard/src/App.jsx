@@ -87,7 +87,7 @@ function App() {
 
       {/* INTRO SECTION */}
       <section className="intro">
-        <h2>Welcome to the 2025 NFL Dashboard</h2>
+        <h2>Welcome to the 2025 FirstDown Analytics Dashboard</h2>
         <p>
           This dashboard shows <strong>2025 NFL team standings</strong> (synthetic live updates every minute)
           and score evolution per team. Use the filters and dropdowns below to interact with the data.
