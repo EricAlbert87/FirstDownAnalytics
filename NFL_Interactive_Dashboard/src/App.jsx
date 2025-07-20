@@ -91,13 +91,6 @@ function App() {
         <p>{t('introDescription')}</p>
       </section>
 
-      <div className="filters">
-        <button onClick={() => handleFilter("ALL")}>{t('filterAll')}</button>
-        <button onClick={() => handleFilter("AFC")}>{t('filterAFC')}</button>
-        <button onClick={() => handleFilter("NFC")}>{t('filterNFC')}</button>
-      </div>
-
-
       {/* FILTERS */}
       <div className="filters">
         <button onClick={() => handleFilter("ALL")}>All Teams</button>
