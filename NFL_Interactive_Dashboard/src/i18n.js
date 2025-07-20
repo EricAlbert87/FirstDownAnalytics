@@ -14,7 +14,8 @@ const resources = {
       lightMode: "Light Mode",
       filterAll: "All Teams",
       filterAFC: "AFC",
-      filterNFC: "NFC"
+      filterNFC: "NFC",
+      lastUpdated: "Last Updated"
     }
   },
   fr: {
@@ -29,7 +30,8 @@ const resources = {
       lightMode: "Mode Clair",
       filterAll: "Toutes les équipes",
       filterAFC: "AFC",
-      filterNFC: "NFC"
+      filterNFC: "NFC",
+      lastUpdated: "Dernière mise à jour"
     }
   }
 };

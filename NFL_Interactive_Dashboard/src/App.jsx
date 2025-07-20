@@ -111,7 +111,7 @@ function App() {
       <section className="intro">
         <h2>{t('introTitle')}</h2>
         <p>{t('introDescription')}</p>
-        {lastUpdated && <p><em>Last updated: {lastUpdated}</em></p>}
+        {lastUpdated && <p><em>{t('lastUpdated')}: {lastUpdated}</em></p>}
       </section>
 
       {/* FILTERS */}
